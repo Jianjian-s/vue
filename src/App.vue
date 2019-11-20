@@ -1,7 +1,7 @@
 <template>
   <div class="app-container">
   <!-- 顶部 -->
-    <mt-header fixed title="vue项目"></mt-header>
+    <mt-header fixed title="vue项目 swj"></mt-header>
 
   <!-- 中间  路由区域 -->
 	
@@ -43,6 +43,8 @@
 <style lang="scss" scoped>
   .app-container{
     padding-top: 40px;
+	padding-bottom: 50px;
+	overflow-x: hidden;
   }
 
   .v-enter{
